@@ -1,3 +1,7 @@
+/*/Modifique a classe Matematica, criando um método para calcular a radiciação entre dois números.
+Modifique a classe com método main para que o método radiciacao possa ser executado como uma das
+operações anteriores/*/
+
 package Lista2Metodos;
 
 import java.util.Scanner;
@@ -83,4 +87,5 @@ class Matematica3 {
     public double radiciacao(int numero, int indice) {
         return Math.pow(numero, 1.0 / indice);
     }
+
 }
