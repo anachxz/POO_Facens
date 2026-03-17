@@ -2,7 +2,6 @@ package ListaPOO4;
 
 import java.time.LocalDate;
 
-
 public class Produto {
 
     String nome;
@@ -20,7 +19,6 @@ public class Produto {
         this.dataFabricacao = dataFabricacao;
         this.dataValidade = dataValidade;
     }
-
 
     public Produto(String nome, double precoCusto, double precoVenda,
                    LocalDate dataFabricacao) {
